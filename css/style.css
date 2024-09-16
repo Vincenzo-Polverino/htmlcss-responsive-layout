@@ -179,8 +179,9 @@ main {
 }
 
 .presentation_main {
-    padding-top: 2rem;
+    padding-top: 1rem;
     text-align: center;
+    line-height: 1.5rem;
 
     p {
         text-align: justify;
@@ -206,16 +207,17 @@ main {
 /* #endregion MAIN */
 
 
-footer{
+footer {
     background-color: #7c69a4;
 }
 
-.copyright{
+.copyright {
     text-align: center;
     color: white;
     line-height: 2rem;
     padding: 1rem;
-    a{
+
+    a {
         color: white;
         padding: 0.5rem;
     }
@@ -300,8 +302,10 @@ footer{
     }
 
     .banner {
-        display: inline-block;
+        display: flex;
         margin-top: 2rem;
+        justify-content: center;
+        
 
         img {
             width: 100%;
@@ -333,15 +337,19 @@ footer{
                 color: black;
                 
 
+
+            }
         }
+
+
+        .pd-x_lg {
+            padding: 0.5rem 5rem;
+        }
+
+        
     }
-
-
-    .pd-x_lg {
-        padding: 0.5rem 2rem;
-    }
-
-    .copyright{
+    
+    .copyright {
         display: flex;
         text-align: left;
         justify-content: space-between;
@@ -350,8 +358,8 @@ footer{
         margin-top: 5rem;
     }
 
-    main{
+    main {
         max-width: 80%;
-        margin:auto;
+        margin: auto;
     }
 }
