@@ -120,7 +120,7 @@ main {
 
 .socials {
     justify-content: space-between;
-    margin-top: 1rem;
+    margin-top: 2rem;
 
     a {
         strong {
@@ -331,8 +331,7 @@ footer{
             strong {
                 display: inline-block;
                 color: black;
-                padding-left: 0.2rem;
-            }
+                
 
         }
     }
