@@ -12,6 +12,8 @@ body {
 
 }
 
+
+
 .pd_sm {
     padding: 0.5rem;
 }
@@ -69,10 +71,12 @@ header {
 
 /* #endregion HEADER */
 
+/* #region MAIN */
 main {
-
     padding: 2rem;
 }
+
+/* #region TOP_MAIN */
 
 .container {
     background-color: white;
@@ -153,6 +157,50 @@ main {
 
 }
 
+/* #endregion TOP_MAIN */
+
+
+
+
+
+
+/* #endregion MAIN */
+
+.banner{
+    display: none;
+}
+
+
+.presentation_header{
+    margin-top: 2rem;
+
+    hr{
+        width: 5rem;
+        border: 2px solid #f79e3d;
+        margin: 0.5rem 0;
+        
+    }
+
+    
+}
+
+.presentation_main{
+    padding-top: 2rem;
+    text-align: center;
+
+    p{
+        text-align: justify;
+    }
+
+
+    .pres-img{
+        padding-bottom: 1rem;
+    
+
+        width: 300px;
+    
+    }
+}
 
 /* #region DEBUG */
 .debug * {
@@ -221,6 +269,25 @@ main {
         border-radius: 20px;
     }
 
+    .pres-img{
+
+        float: left;
+        width: 500px;
+        
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+
+    }
+
+    .banner{
+        display: inline-block;
+        margin-top: 2rem;
+        
+        img{
+            width: 100%;
+        }
+        
+    }
 
 }
 
