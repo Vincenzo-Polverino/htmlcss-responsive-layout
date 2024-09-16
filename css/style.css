@@ -1,7 +1,73 @@
+/* #region COMMON */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* #endregion COMMON */
+
+header{
+    height: 50px;
+    box-shadow: 0px 0px 10px #8f8e8d;;
+}
+
+.title{
+    font-family: Nerko One;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+    color: #ff9614;
+    text-shadow: 2px 1px 2px #8f8e8d;
+}
+
+
+/* #region DEBUG */
+.debug {
+    border: 1px dashed black;
+   
+}
+
+/* #endregion DEBUG */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 758px) {
+
+    .title{
+    
+        text-align: left;
+        
+       
+    }
+
 }
 
 
@@ -9,35 +75,7 @@
 
 
 
+@media screen and (min-width: 992px) {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (min-width: 758px) {}
-
-
-
-
-
-
-@media screen and (min-width: 992px) {}
+    
+}
